@@ -4,7 +4,7 @@ function identity1(arg: any): any {
 }
 
 
-// 泛类型
+// 泛类型 T是个变量
 function identity<T>(arg: T): T {
    return arg;
 }
